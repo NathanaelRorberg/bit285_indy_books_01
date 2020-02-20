@@ -865,6 +865,22 @@ namespace IndyBooks
                 Price = 30.00M,
                 Year = "1994"
             });
+            context.Books.Add(new Book
+            {
+                Title = "Twilight",
+                Author = "Stepheney Meyers",
+                Edition = "",
+                Price = 36.00M,
+                Year = ""
+            });
+            context.Books.Add(new Book
+            {
+                Title = "Calvin and Hobbs",
+                Author = "unknown",
+                Edition = "",
+                Price = 36.00M,
+                Year = "2018"
+            });
 
 
             await context.SaveChangesAsync();
